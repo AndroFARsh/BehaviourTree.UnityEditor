@@ -1,0 +1,21 @@
+{
+    "name": "com.androfarsh.ai.b3.unityeditor",
+    "author": "AndroFARsh",
+    "displayName": "BTree UnityEditor",
+    "description": "BTree UnityEditor - Behaviour tree graph editor",
+    "unity": "2020.3",
+    "version": "0.0.1",
+    "keywords": [
+        "behaviourtree",
+        "ai",
+        "unity",
+        "integration"
+    ],
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/androfarsh/behaviourtree.unityeditor.git"
+    }
+}

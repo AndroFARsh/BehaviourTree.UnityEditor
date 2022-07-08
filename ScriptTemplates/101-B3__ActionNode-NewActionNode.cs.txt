@@ -1,0 +1,10 @@
+using BTree.Runtime.Actions;
+
+public class #SCRIPTNAME# : ActionNode
+{
+    protected override State OnEvaluate<T>(T context) 
+    {
+        // TODO: implement me
+        return State.Success;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "BTree.UnityEditor.Runtime",
+    "rootNamespace": "BTree.Runtime",
+    "references": [
+        "BTree"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

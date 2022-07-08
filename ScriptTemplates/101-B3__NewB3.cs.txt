@@ -1,0 +1,18 @@
+using System;
+using BTree.Runtime;
+using UnityEngine;
+
+[Serializable]
+public class #SCRIPTNAME# : IB3
+{
+  private readonly RootNode root;
+  
+  public #SCRIPTNAME#()
+  {
+#CONTENT#
+  }
+
+  public Node.State Evaluate<T>(T context) where T : IContext => root?.Evaluate(context) ?? Node.State.Failure;
+  
+  private T CreateNode<T>(string json) where T : Node => JsonUtility.FromJson<T>(json);
+}

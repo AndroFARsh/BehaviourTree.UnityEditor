@@ -1,0 +1,10 @@
+using BTree.Runtime.Composites;
+
+public class #SCRIPTNAME# : CompositeNode
+{
+    protected override State OnEvaluate<T>(T context) 
+    {
+        // TODO: implement me
+        return State.Success;
+    }
+}
